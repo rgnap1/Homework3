@@ -38,6 +38,33 @@ public class Main {
         int theLoaf = 67;
         System.out.println(theLoaf);
 
+        //task3
+        byte totalClasses = 3;
+        System.out.println(totalClasses);
+        byte pupilsLudmilaPavlovna = 23;
+        System.out.println(pupilsLudmilaPavlovna);
+        byte pupilsAnnaSergeevna = 27;
+        System.out.println(pupilsAnnaSergeevna);
+        byte pupilsEkaterinaAndreevna = 30;
+        System.out.println(pupilsEkaterinaAndreevna);
+        int totalPupils = pupilsLudmilaPavlovna + pupilsAnnaSergeevna + pupilsEkaterinaAndreevna;
+        System.out.println(totalPupils);
+        short totalPapers = 480;
+        System.out.println(totalPapers);
+        int paperInOneClass = totalPapers/totalClasses;
+        System.out.println(paperInOneClass);
+        int paperAOnePupil = totalPapers/totalPupils;
+        System.out.println(" На каждого ученика расчитано " + paperAOnePupil + " листов бумаги ");
+
+
+
+
+
+
+
+
+
+
 
 
 
