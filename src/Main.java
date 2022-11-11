@@ -87,6 +87,20 @@ public class Main {
         //task5
         byte dyeWhiteAndBrownTotal = 120;
         System.out.println(dyeWhiteAndBrownTotal);
+        byte whiteDyeIn1Class = 2;
+        System.out.println(whiteDyeIn1Class);
+        byte brownDyeIn1Class = 4;
+        System.out.println(brownDyeIn1Class);
+        byte dyein1ClassTotal = 2+4;
+        System.out.println(dyein1ClassTotal);
+        int totalClassesInSchool = dyeWhiteAndBrownTotal/dyein1ClassTotal;
+        System.out.println(totalClassesInSchool);
+        int whiteDyeTotal = whiteDyeIn1Class*totalClassesInSchool;
+        System.out.println(whiteDyeTotal);
+        int brownDyeTotal = brownDyeIn1Class*totalClassesInSchool;
+        System.out.println(brownDyeTotal);
+
+
 
 
 
