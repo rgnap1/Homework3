@@ -23,19 +23,19 @@ public class Main {
         float applePie = 2.786f;
         System.out.println(applePie);
 
-        int mounths = 6;
+        byte mounths = 6;
         System.out.println(mounths);
         boolean theFalse = 6 < 5;
         System.out.println(theFalse);
 
-        short books = 569;
+        char books = 569;
         System.out.println(books);
         short snowflakes = -159;
         System.out.println(snowflakes);
-        short bananas = 29897;
+        int bananas = 29897;
         System.out.println(bananas);
 
-        int theLoaf = 67;
+        byte theLoaf = 67;
         System.out.println(theLoaf);
 
         //task3
@@ -55,6 +55,47 @@ public class Main {
         System.out.println(paperInOneClass);
         int paperAOnePupil = totalPapers/totalPupils;
         System.out.println(" На каждого ученика расчитано " + paperAOnePupil + " листов бумаги ");
+
+        //task4
+        byte perfomanceBottlesStart = 16;
+        System.out.println(perfomanceBottlesStart);
+        byte perfomanceMinutesStart = 2;
+        System.out.println(perfomanceMinutesStart);
+        byte minutesIn1Hours = 60;
+        System.out.println(minutesIn1Hours);
+        int perfomanceBottlesIn1Minute = perfomanceBottlesStart / perfomanceMinutesStart;
+        System.out.println(perfomanceBottlesIn1Minute);
+        byte horsIn1Day = 24;
+        System.out.println(horsIn1Day);
+        int perfomanceBottlesIn1Hors = minutesIn1Hours*perfomanceBottlesIn1Minute;
+        System.out.println(perfomanceBottlesIn1Hors);
+        int perfomanceBottlesIn20Minutes = perfomanceBottlesIn1Minute*20;
+        System.out.println("За 20 минут продолжительности работы машина произвела бутылок " + perfomanceBottlesIn20Minutes + " штук ");
+        int perfomanceBottlesIn1Day = horsIn1Day*perfomanceBottlesIn1Hors;
+        System.out.println("За 1 сутки продолжительности работы машина произвела бутылок " + perfomanceBottlesIn1Day + " штук ");
+        int perfomanceBottlesIn3Days = perfomanceBottlesIn1Day*3;
+        System.out.println("За 3 дня продолжительности работы машина произвела бутылок " + perfomanceBottlesIn3Days + " штук ");
+        byte daysIn1Mounth = 30;
+        System.out.println(daysIn1Mounth);
+        int hourseIn1Mounth = daysIn1Mounth*horsIn1Day;
+        System.out.println(hourseIn1Mounth);
+        int minutesIn1Mounth = hourseIn1Mounth*minutesIn1Hours;
+        System.out.println(minutesIn1Mounth);
+        int perfomanceBoyylesIn1Mount = perfomanceBottlesIn1Minute*minutesIn1Mounth;
+        System.out.println("За 1 месяц продолжительности работы машина произвела бутылок " + perfomanceBoyylesIn1Mount + " штук ");
+
+        //task5
+        byte dyeWhiteAndBrownTotal = 120;
+        System.out.println(dyeWhiteAndBrownTotal);
+
+
+
+
+
+
+
+
+
 
 
 
