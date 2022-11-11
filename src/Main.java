@@ -98,7 +98,7 @@ public class Main {
         int whiteDyeTotal = whiteDyeIn1Class*totalClassesInSchool;
         System.out.println(whiteDyeTotal);
         int brownDyeTotal = brownDyeIn1Class*totalClassesInSchool;
-        System.out.println(brownDyeTotal);
+        System.out.println("В школе, где " + totalClassesInSchool + " классов, нужно " + whiteDyeTotal + " банок белой краски и " + brownDyeTotal + " банок коричневой краски. ");
 
 
 
