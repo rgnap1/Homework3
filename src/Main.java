@@ -25,14 +25,14 @@ public class Main {
 
         byte mounths = 6;
         System.out.println(mounths);
-        boolean theFalse = 6 < 5;
+        boolean theFalse = mounths <=  5;
         System.out.println(theFalse);
 
         char books = 569;
         System.out.println(books);
         short snowflakes = -159;
         System.out.println(snowflakes);
-        int bananas = 29897;
+        int bananas = 27897;
         System.out.println(bananas);
 
         byte theLoaf = 67;
@@ -100,6 +100,7 @@ public class Main {
         int brownDyeTotal = brownDyeIn1Class*totalClassesInSchool;
         System.out.println("В школе, где " + totalClassesInSchool + " классов, нужно " + whiteDyeTotal + " банок белой краски и " + brownDyeTotal + " банок коричневой краски. ");
 
+        //task6
 
 
 
