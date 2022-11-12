@@ -100,8 +100,8 @@ public class Main {
         int brownDyeTotal = brownDyeIn1Class*totalClassesInSchool;
         System.out.println("В школе, где " + totalClassesInSchool + " классов, нужно " + whiteDyeTotal + " банок белой краски и " + brownDyeTotal + " банок коричневой краски. ");
 
-        //task6
 
+        //task6
         int bananas = 5*80;
         System.out.println(bananas);
         int milk = 200*105;
@@ -117,6 +117,7 @@ public class Main {
         int kilogramBreakfast = grammBreakfast/kilogram;
         System.out.println("В завтраке спортсмена " + kilogramBreakfast+ " кг");
 
+
         //task7
         int grammBefore = 7*kilogram;
         System.out.println(grammBefore + " грамм веса нужно сбросить спортсмену до соревнований");
@@ -127,13 +128,53 @@ public class Main {
         int dayDietAverage = grammBefore % (dayDiet1 + dayDiet2);
         System.out.println ("В среднем за " + dayDietAverage + " дней спортсмен похудеет на 7 кг ");
 
+
         //task8
+        double wageMashaMounthBefore = 67760.0;
+        System.out.println("Зарплата Маши до повышения зп " + wageMashaMounthBefore);
+        double wageDenisMounthBefore = 83690.0;
+        System.out.println("Зарплата Дениса до повышения зп " + wageDenisMounthBefore);
+        double wageKristinaMounthBefore = 76230.0;
+        System.out.println("Зарплата Кристины до повышения зп " + wageKristinaMounthBefore);
 
+        double percentMounth = 0.10;
+        System.out.println(percentMounth);
 
+        double wageMashaMounth10Percent = wageMashaMounthBefore*percentMounth;
+        System.out.println(wageMashaMounth10Percent);
+        double wageMashaMounthAfterPercent = wageMashaMounthBefore+wageMashaMounth10Percent;
+        System.out.println(wageMashaMounthAfterPercent + "  зарплата Маши в месяц,после повышения зп на 10%");
+        double wageDenisMounth10Percent = wageDenisMounthBefore*percentMounth;
+        System.out.println(wageDenisMounth10Percent);
+        double wageDenisMounthAfterPercent = wageDenisMounthBefore+wageDenisMounth10Percent;
+        System.out.println(wageDenisMounthAfterPercent + " зарплата Дениса в месяц, после повышения зп на 10%");
+        double wageKristinaMounth10Percent = wageKristinaMounthBefore*percentMounth;
+        System.out.println(wageKristinaMounth10Percent);
+        double wageKristinaMounthAfterPercent = wageKristinaMounthBefore + wageKristinaMounth10Percent;
+        System.out.println(wageKristinaMounthAfterPercent + " зарплата Кристины в месяц, после повышения зп на 10%");
 
+        double mounthInYear = 12.0;
+        System.out.println(mounthInYear);
 
+        double wageMashaInYearBeforePefcent = wageMashaMounthBefore*mounthInYear;
+        System.out.println(wageMashaInYearBeforePefcent + " зарплата Маши в год, до повышения зп на 10%");
+        double wageMashaInYearAfterPercent = wageMashaMounthAfterPercent*mounthInYear;
+        System.out.println(wageMashaInYearAfterPercent + " зарплата Маши в год, после повышения зп на 10%");
+        double wageDenisInYearBeforePefcent = wageDenisMounthBefore*mounthInYear;
+        System.out.println(wageDenisInYearBeforePefcent + " зарплата Дениса в год, до повышения зп на 10%");
+        double wageDenisInYearAfterPercent = wageDenisMounthAfterPercent*mounthInYear;
+        System.out.println(wageDenisInYearAfterPercent + " зарплата Дениса в год, после повышения за на 10%");
+        double wageKristinaInYearBeforePefcent = wageKristinaMounthBefore*mounthInYear;
+        System.out.println(wageKristinaInYearBeforePefcent + " зарплата Кристины в год, до повышения за на 10%");
+        double wageKristinaInYearAfterPercent = wageKristinaMounthAfterPercent*mounthInYear;
+        System.out.println(wageKristinaInYearAfterPercent + " зарплата Кристины в год, после повышения зп на 10%");
 
-
+        double differentWageMashaInYear = wageMashaInYearAfterPercent - wageMashaInYearBeforePefcent ;
+        System.out.println("Маша теперь получает " + wageMashaMounthAfterPercent + " рублей. " + " Годовой доход вырос на " + differentWageMashaInYear + " рублей.");
+        double differentWageDenisInYear = wageDenisInYearAfterPercent - wageDenisInYearBeforePefcent;
+        System.out.println("Денис теперь получает " + wageDenisMounthAfterPercent + " рублей." + " Годовой доход вырос на " + differentWageDenisInYear + " рублей.");
+        double differentWageKristinaInYear = wageKristinaInYearAfterPercent - wageKristinaInYearBeforePefcent;
+        System.out.println("Кристина теперь получает " + wageKristinaMounthAfterPercent + " рублей. " + " Годовой доход вырос на " + differentWageKristinaInYear + " рублей.");
 
 
 
