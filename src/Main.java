@@ -32,8 +32,8 @@ public class Main {
         System.out.println(books);
         short snowflakes = -159;
         System.out.println(snowflakes);
-        int bananas = 27897;
-        System.out.println(bananas);
+        int aPinapple = 27897;
+        System.out.println(aPinapple);
 
         byte theLoaf = 67;
         System.out.println(theLoaf);
@@ -101,6 +101,33 @@ public class Main {
         System.out.println("В школе, где " + totalClassesInSchool + " классов, нужно " + whiteDyeTotal + " банок белой краски и " + brownDyeTotal + " банок коричневой краски. ");
 
         //task6
+
+        int bananas = 5*80;
+        System.out.println(bananas);
+        int milk = 200*105;
+        System.out.println(milk);
+        int iceCreamSundae = 2*100;
+        System.out.println(iceCreamSundae);
+        int rawEggs = 4*70;
+        System.out.println(rawEggs);
+        int grammBreakfast = bananas + milk + iceCreamSundae + rawEggs;
+        System.out.println(grammBreakfast);
+        int kilogram = 1000;
+        System.out.println("В одном килограме " + kilogram + " грамм");
+        int kilogramBreakfast = grammBreakfast/kilogram;
+        System.out.println("В завтраке спортсмена " + kilogramBreakfast+ " кг");
+
+        //task7
+        int grammBefore = 7*kilogram;
+        System.out.println(grammBefore + " грамм веса нужно сбросить спортсмену до соревнований");
+        int dayDiet1 = grammBefore/250;
+        System.out.println("За " + dayDiet1 + " дней спортсмен скинет 7 кг веса,если в день будет сбрасывать по 250 грамм");
+        int dayDiet2 = grammBefore/500;
+        System.out.println("За " + dayDiet2 + " дней спортсмен скинет 7 кг веса,если в день будет сбрасывать по 500 грамм");
+        int dayDietAverage = grammBefore % (dayDiet1 + dayDiet2);
+        System.out.println ("В среднем за " + dayDietAverage + " дней спортсмен похудеет на 7 кг ");
+
+        //task8
 
 
 
