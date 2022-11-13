@@ -4,7 +4,7 @@ public class Main {
 
 
         //task1
-        int redApple = 208963;
+        int  redApple = 208963;
         System.out.println (" Значение переменной " + redApple + " с типом int равно " + 208963 );
         byte greenApple = 6;
         System.out.println(" Значение переменной " + greenApple + " с типом byte равно " + 6);
@@ -12,11 +12,12 @@ public class Main {
         System.out.println(" Значение переменной " + orange + " с типом short равно " + 31560);
         long grape = 876000024L;
         System.out.println("Значение переменной " + grape + " с типом long равно " + 876000024L);
-        float peachThree = 1.6f;
-        System.out.println("Значение переменной " + peachThree + " с типом float равно " + 1.6f);
+        float peachThree = 1.6F;
+        System.out.println("Значение переменной " + peachThree + " с типом float равно " + 1.6F);
+        double bottleMilk = 5.6987242;
+        System.out.println("Значение переменной " + bottleMilk + " с тимом double равно " + 5.6987242);
 
-
-
+        //task2
         byte mounths = 6;
         System.out.println(mounths);
         boolean theFalse = mounths <=  5;
@@ -27,21 +28,18 @@ public class Main {
         char books2 = 53;
         char books3 = 57;
         System.out.println(books + " " + books1 + " " + books2 + " " + books3);
+
         short snowflakes = 596;
         System.out.println(snowflakes);
         int aPinapple = 27897;
         System.out.println(aPinapple);
-
         byte theLoaf = 67;
         System.out.println(theLoaf);
-
-
-        //task2
         double theMilesInRoad = 27.12;
         System.out.println (theMilesInRoad);
         long atoms = 987678965549L;
         System.out.println (atoms);
-        float applePie = 2.786f;
+        float applePie = 2.786F;
         System.out.println(applePie);
 
 
@@ -136,6 +134,7 @@ public class Main {
         System.out.println ("В среднем, за " + dayDietAverage + " день спортсмен похудеет на 7 кг ");
 
 
+
         //task8
         double wageMashaMounthBefore = 67760.0;
         System.out.println("Зарплата Маши до повышения зп " + wageMashaMounthBefore);
@@ -187,6 +186,7 @@ public class Main {
 
 
 
+        //task6*
 
 
 
