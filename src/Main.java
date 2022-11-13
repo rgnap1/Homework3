@@ -15,6 +15,27 @@ public class Main {
         float peachThree = 1.6f;
         System.out.println("Значение переменной " + peachThree + " с типом float равно " + 1.6f);
 
+
+
+        byte mounths = 6;
+        System.out.println(mounths);
+        boolean theFalse = mounths <=  5;
+        System.out.println(theFalse);
+
+        char books = '-';
+        char books1 = 49;
+        char books2 = 53;
+        char books3 = 57;
+        System.out.println(books + " " + books1 + " " + books2 + " " + books3);
+        short snowflakes = 596;
+        System.out.println(snowflakes);
+        int aPinapple = 27897;
+        System.out.println(aPinapple);
+
+        byte theLoaf = 67;
+        System.out.println(theLoaf);
+
+
         //task2
         double theMilesInRoad = 27.12;
         System.out.println (theMilesInRoad);
@@ -23,20 +44,6 @@ public class Main {
         float applePie = 2.786f;
         System.out.println(applePie);
 
-        byte mounths = 6;
-        System.out.println(mounths);
-        boolean theFalse = mounths <=  5;
-        System.out.println(theFalse);
-
-        char books = 569;
-        System.out.println(books);
-        short snowflakes = -159;
-        System.out.println(snowflakes);
-        int aPinapple = 27897;
-        System.out.println(aPinapple);
-
-        byte theLoaf = 67;
-        System.out.println(theLoaf);
 
         //task3
         byte totalClasses = 3;
@@ -125,8 +132,8 @@ public class Main {
         System.out.println("За " + dayDiet1 + " дней спортсмен скинет 7 кг веса,если в день будет сбрасывать по 250 грамм");
         int dayDiet2 = grammBefore/500;
         System.out.println("За " + dayDiet2 + " дней спортсмен скинет 7 кг веса,если в день будет сбрасывать по 500 грамм");
-        int dayDietAverage = grammBefore % (dayDiet1 + dayDiet2);
-        System.out.println ("В среднем за " + dayDietAverage + " дней спортсмен похудеет на 7 кг ");
+        int dayDietAverage = (dayDiet1+dayDiet2)/2;
+        System.out.println ("В среднем, за " + dayDietAverage + " день спортсмен похудеет на 7 кг ");
 
 
         //task8
@@ -175,6 +182,8 @@ public class Main {
         System.out.println("Денис теперь получает " + wageDenisMounthAfterPercent + " рублей." + " Годовой доход вырос на " + differentWageDenisInYear + " рублей.");
         double differentWageKristinaInYear = wageKristinaInYearAfterPercent - wageKristinaInYearBeforePefcent;
         System.out.println("Кристина теперь получает " + wageKristinaMounthAfterPercent + " рублей. " + " Годовой доход вырос на " + differentWageKristinaInYear + " рублей.");
+
+
 
 
 
